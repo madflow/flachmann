@@ -1,8 +1,8 @@
 {
-  "name": "flachmann",
+  "name": "{{cookiecutter.app_name}}",
   "version": "0.0.0",
   "authors": [
-    "author@localhost"
+    "{{cookiecutter.app_name}}.email"
   ],
   "license": "MIT",
   "private": true,
@@ -10,7 +10,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "flachmann/static/vendor",
+    "{{cookiecutter.app_name}}/static/vendor",
     "test",
     "tests"
   ],
