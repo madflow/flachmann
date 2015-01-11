@@ -1,4 +1,6 @@
-Another Flask Foundation/Boilerplate/Quickstart
+Another Flask Foundation/Boilerplate/Quickstart using cookiecutter
+    
+# Installation
 
     mkvirtualenv myproject
     pip install cookiecutter

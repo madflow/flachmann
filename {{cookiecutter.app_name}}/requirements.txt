@@ -6,4 +6,3 @@ argparse==1.2.1
 itsdangerous==0.24
 wsgiref==0.1.2
 click==3.3
-cookiecutter==0.8.0
