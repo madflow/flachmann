@@ -54,4 +54,4 @@ docs/_build/
 target/
 
 .idea
-{{cookiecutter.app_name}}/static/vendor/
+{{cookiecutter.app_name}}/{{cookiecutter.app_name}}/static/vendor/
