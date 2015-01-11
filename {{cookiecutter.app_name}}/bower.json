@@ -2,7 +2,7 @@
   "name": "{{cookiecutter.app_name}}",
   "version": "0.0.0",
   "authors": [
-    "{{cookiecutter.app_name}}.email"
+    "{{cookiecutter.app_name}}.author_email"
   ],
   "license": "MIT",
   "private": true,
