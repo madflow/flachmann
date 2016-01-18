@@ -1,8 +1,13 @@
 import subprocess
 import sys
 
+
 def execute(command):
-    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    process = subprocess.Popen(
+        command,
+        shell=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT)
 
     while True:
         nextline = process.stdout.readline()
