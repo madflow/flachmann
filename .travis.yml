@@ -5,6 +5,7 @@ python:
     - "3.5"
 
 install:
+    - npm install -g bower
     - pip install cookiecutter
     - cookiecutter . --no-input
     - cd superawesome
